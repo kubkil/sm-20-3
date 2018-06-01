@@ -13,3 +13,5 @@ render(
   </Provider>,
   document.getElementById('root')
 );
+
+store.dispatch(getCountries());

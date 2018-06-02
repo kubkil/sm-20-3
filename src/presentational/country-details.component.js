@@ -11,18 +11,18 @@ const CountryDetails = (props) => (
 
       <div className="info">
         <div>
+          <span>Ludność[mln]: </span>
           <span>{props.country.populace}</span>
-          <span>Ludność[mln]</span>
         </div>
 
         <div>
+          <span>Stolica: </span>
           <span>{props.country.capital}</span>
-          <span>Stolica</span>
         </div>
 
         <div>
+          <span>Waluta: </span>
           <span>{props.country.currency}</span>
-          <span>Waluta</span>
         </div>
       </div>
     </div>

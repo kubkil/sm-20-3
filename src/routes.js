@@ -1,10 +1,9 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
-import Navigation from './presentational/navigation.component';
-import Home from './presentational/home.component';
-import Contact from './presentational/contact.component';
-import NotFound from './presentational/not-found.component';
-
+import Navigation from './presentational/navigation.component.js';
+import Home from './presentational/home.component.js';
+import Contact from './presentational/contact.component.js';
+import NotFound from './presentational/not-found.component.js';
 
 export default (
   <Route path='/' component={Navigation}>

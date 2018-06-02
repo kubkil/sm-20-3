@@ -14,7 +14,9 @@ const initialState = {
 const countriesReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_COUNTRIES:
-      return Object.assign({}, state, {countries: state.countries})
+      return Object.assign({}, state, {countries: state.countries});
+    default:
+      console.log(`default`);
   }
   return state;
 };

@@ -19,8 +19,6 @@ const countriesReducer = (state = initialState, action) => {
       return Object.assign({}, state, {countries: state.countries});
 
     case GET_COUNTRY:
-      // parseInt?
-      // console.log(action.id);
       const selectedCountry = state.countries.find(country => country.id === parseInt(action.id));
       return Object.assign({}, state, { selectedCountry });
 
